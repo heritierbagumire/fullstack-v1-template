@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Transport Industry App Template",
+    "slug": "transport-industry-app-template",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/splash-icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": { 
+    "image": "./assets/images/splash-icon.png",
+    "resizeMode": "cover",
+    "backgroundColor": "#ffffff"
+   },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.rork.transport-industry-app-template"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "app.rork.transport-industry-app-template"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://rork.com/"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
